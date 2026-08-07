@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Project | Noah Rafter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a class="logo" href="index.html">
+            <img
+                src="images/logo.png"
+                alt="Noah Rafter logo"
+            >
+        </a>
+
+        <nav>
+            <a href="index.html">Portfolio</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="links.html">Links</a>
+        </nav>
+    </header>
+
+    <main class="project-page">
+
+        <section class="project-hero">
+            <p
+                id="projectCollection"
+                class="eyebrow"
+            ></p>
+
+            <h1 id="projectTitle"></h1>
+
+            <p
+                id="projectDescription"
+                class="project-description"
+            ></p>
+        </section>
+
+        <section class="hero-render">
+            <img
+                id="projectCover"
+                src=""
+                alt=""
+            >
+        </section>
+
+        <section class="project-info">
+
+            <div>
+                <h3>Software</h3>
+                <p id="projectSoftware"></p>
+            </div>
+
+            <div>
+                <h3>Renderer</h3>
+                <p id="projectRenderer"></p>
+            </div>
+
+            <div>
+                <h3>Category</h3>
+                <p id="projectCategory"></p>
+            </div>
+
+            <div>
+                <h3>Completed</h3>
+                <p id="projectCompleted"></p>
+            </div>
+
+        </section>
+
+        <section class="project-writeup">
+            <h2>Project Overview</h2>
+            <p id="projectOverview"></p>
+        </section>
+
+        <section
+            id="gallerySection"
+            class="gallery"
+        >
+            <h2>Gallery</h2>
+
+            <div
+                id="projectGallery"
+                class="gallery-grid"
+            ></div>
+        </section>
+
+        <section
+            id="videoSection"
+            class="animation"
+        >
+            <h2>Animation</h2>
+
+            <video
+                id="projectVideo"
+                controls
+                preload="metadata"
+            ></video>
+        </section>
+
+        <section class="project-navigation">
+            <a
+                id="backToCollection"
+                href="index.html"
+            >
+                ← Back to collection
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Noah Rafter</p>
+        <p>All rights to this page and every 3D model reserved.</p>
+        <p>For use of images and animations credit must be given to KxServ/Noah Rafter.</p>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+
+    <span id="lightboxClose">&times;</span>
+
+    <img id="lightboxImage">
+
+</div>
+
+    <script src="projects.js"></script>
+    <script src="project-page.js"></script>
+
+</body>
+</html>
