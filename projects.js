@@ -323,4 +323,47 @@ const projects = [
             "image",
             "cycles"
         ]
+    },
+
+    {
+        id: "witcher-3-rivias-sword",
+        title: "Rivias Blade (The Witcher 3: Wild Hunt)",
+        collection: "hardsurface",
+        featured: false,
+
+        shortDescription:
+            "My take on the Rivias Blade from The Witcher 3: Wild Hunt, one of my favourite games.",
+
+        overview:
+            "What originally started as me modelling Gandalf's sword Glamdring turned into me modelling the Rivias sword from The Witcher 3.",
+
+        coverImage:
+            "images/projects/witcher-3-rivals-sword/cover.png",
+
+        galleryImages: [ 
+            "images/projects/witcher-3-rivals-sword/render-01.png",
+            "images/projects/witcher-3-rivals-sword/render-02.png"
+        ],
+
+        video: "",
+
+        software:
+            "Blender",
+
+        renderer:
+            "Cycles",
+
+        category:
+            "Image",
+
+        completed:
+            "August 2026",
+
+        tags: [
+            "sword",
+            "witcher",
+            "weapon",
+            "image",
+            "cycles"
+        ]
     },]
