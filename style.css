@@ -924,3 +924,65 @@ video {
     border-color: #777;
     transform: translateY(-2px);
 }
+
+/* =========================
+   404 PAGE
+========================= */
+
+.error-page {
+    min-height: 65vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 60px 20px;
+}
+
+.error-page .eyebrow {
+    margin-bottom: 15px;
+}
+
+.error-page h1 {
+    font-size: clamp(3rem, 7vw, 6rem);
+    margin: 0;
+}
+
+.error-description {
+    max-width: 500px;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    color: #aaa;
+    line-height: 1.6;
+}
+
+.error-button {
+    display: inline-block;
+
+    padding: 12px 18px;
+
+    background: #141416;
+    color: #fff;
+
+    border: 1px solid #444;
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.error-button:hover {
+    background: #1d1d20;
+    border-color: #777;
+
+    transform: translateY(-2px);
+}
