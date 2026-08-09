@@ -406,4 +406,48 @@ const projects = [
             "image",
             "cycles"
         ]
+    },
+
+    {
+        id: "scottish-claymore",
+        title: "Scottish Claymore",
+        collection: "hardsurface",
+        featured: false,
+
+        shortDescription:
+            "The 15th century Scottish sword 'Claymore'",
+
+        overview:
+            "My model of the Scottish Claymore, a large 2 handed sword from the 15 and 17th century. Also my most used sword in Dark Souls 1 and Dark Souls 3.",
+
+        coverImage:
+            "images/projects/scottish-claymore/cover.png",
+
+        galleryImages:["images/projects/scottish-claymore/render-01.png",
+            "images/projects/scottish-claymore/render-02.png",
+            "images/projects/scottish-claymore/render-03.png",
+            "images/projects/scottish-claymore/render-04.png"
+        ],
+
+        video: "",
+
+        software:
+            "Blender",
+
+        renderer:
+            "Cycles",
+
+        category:
+            "Image",
+
+        completed:
+            "August 2026",
+
+        tags: [
+            "sword",
+            "weapon",
+            "metal",
+            "image",
+            "cycles"
+        ]
     },]
