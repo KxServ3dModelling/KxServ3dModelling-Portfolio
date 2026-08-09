@@ -366,4 +366,44 @@ const projects = [
             "image",
             "cycles"
         ]
+    },
+
+    {
+        id: "david-beckham-calvin-klein",
+        title: "David Beckham & Calvin Klein cologne bottles.",
+        collection: "props",
+        featured: false,
+
+        shortDescription:
+            "Decided to 3D model the 2 cologne bottles I use on a daily basis.",
+
+        overview:
+            "Working with the glass and the liquid was quite annoying and I had to look up a few tutorials on how, desipite this not being my best work I still eventually got there.",
+
+        coverImage:
+            "images/projects/colonge/cover.png",
+
+        galleryImages:[],
+
+        video: "",
+
+        software:
+            "Blender",
+
+        renderer:
+            "Cycles",
+
+        category:
+            "Image",
+
+        completed:
+            "August 2026",
+
+        tags: [
+            "colonge",
+            "brand",
+            "fragrance",
+            "image",
+            "cycles"
+        ]
     },]
