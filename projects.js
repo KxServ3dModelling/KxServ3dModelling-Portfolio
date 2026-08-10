@@ -450,4 +450,46 @@ const projects = [
             "image",
             "cycles"
         ]
+    },
+
+    {
+        id: "german-zweihander",
+        title: "German Zweihänder",
+        collection: "hardsurface",
+        featured: false,
+
+        shortDescription:
+            "The 15th amd 16th century German sword 'Zweihänder'",
+
+        overview:
+            "My model of the German Zweihänder, a large 2 handed sword from the 15 and 16th century. Designed for large crowd control and used by elite heavy infantry the Zweihänder was used more as a polearm rather than a sword.",
+
+        coverImage:
+            "images/projects/german-zewihander/cover.png",
+
+        galleryImages:["images/projects/german-zewihander/render-01.png",
+            "images/projects/german-zewihander/render-02.png"
+        ],
+
+        video: "",
+
+        software:
+            "Blender",
+
+        renderer:
+            "Cycles",
+
+        category:
+            "Image",
+
+        completed:
+            "August 2026",
+
+        tags: [
+            "sword",
+            "weapon",
+            "metal",
+            "image",
+            "cycles"
+        ]
     },]
