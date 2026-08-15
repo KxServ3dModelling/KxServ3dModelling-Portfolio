@@ -492,4 +492,49 @@ const projects = [
             "image",
             "cycles"
         ]
+    },
+
+        {
+        id: "black-sister",
+        title: "Black Sister (House Of The Dragon)",
+        collection: "hardsurface",
+        featured: false,
+
+        shortDescription:
+            "Daemon Targaryen's Valyrian steel sword the Black Sister.",
+
+        overview:
+            "Forged in Old Valyria before the doom, Black Sister is a slender, lightweight blade specifically sized for a woman's or a nimble warrior's hand. It traditionally goes to skilled fighters in the family rather than strictly to the reigning monarch. The Dragon egg pomel was made by https://sketchfab.com/johnlabrada3D, the respective license allowed me to edit the model to my liking. The rest of the sword was made by me.",
+
+        coverImage:
+            "images/projects/black-sister/cover.png",
+
+        galleryImages:["images/projects/black-sister/render-01.png",
+            "images/projects/black-sister/render-02.png",
+            "images/projects/black-sister/render-03.png",
+            "images/projects/black-sister/render-04.png"
+        ],
+
+        video: "",
+
+        software:
+            "Blender",
+
+        renderer:
+            "Cycles",
+
+        category:
+            "Image",
+
+        completed:
+            "August 2026",
+
+        tags: [
+            "sword",
+            "weapon",
+            "metal",
+            "image",
+            "cycles",
+            "game of thrones"
+        ]
     },]
