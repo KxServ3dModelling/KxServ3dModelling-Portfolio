@@ -1,5 +1,50 @@
 const projects = [
     {
+        id: "ichigo-false-bankai",
+        title: "Ichigo False Bankai (Bleach)",
+        collection: "hardsurface",
+        featured: false,
+
+        shortDescription:
+            "Ichigo's Bankai sword during the Soul Society arc of Bleach.",
+
+        overview:
+            "False Bankai refers to the initial, compressed form of Tensa Zangetsu that Ichigo used from the Soul Society arc up until the Lost Agent arc. It was not a completely fake ability, but rather an incomplete, restricted manifestation shaped by Old Man Zangetsu.",
+
+        coverImage:
+            "images/projects/ichigo-false-bankai/cover.png",
+
+        galleryImages:["images/projects/ichigo-false-bankai/render-01.png",
+            "images/projects/ichigo-false-bankai/render-02.png",
+            "images/projects/ichigo-false-bankai/render-03.png",
+            "images/projects/ichigo-false-bankai/render-04.png"
+        ],
+
+        video: "",
+
+        software:
+            "Blender",
+
+        renderer:
+            "Cycles",
+
+        category:
+            "Image",
+
+        completed:
+            "August 2026",
+
+        tags: [
+            "sword",
+            "weapon",
+            "metal",
+            "image",
+            "anime",
+            "cycles"
+        ]
+    },
+
+    {
         id: "glamdring",
         title: "Glamdring ( The Lord of the Rings)",
         collection: "hardsurface",
