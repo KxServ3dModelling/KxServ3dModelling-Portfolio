@@ -1,5 +1,49 @@
 const projects = [
     {
+        id: "glamdring",
+        title: "Glamdring ( The Lord of the Rings)",
+        collection: "hardsurface",
+        featured: false,
+
+        shortDescription:
+            "Gandalf's primary weapon 'Glamdring'",
+
+        overview:
+            "Forged by Elven smiths in the hidden First Age city of Gondolin, Glamdring (meaning 'Foe-hammer') was originally wielded by King Turgon. It was lost during the city's fall, remaining missing for over 6,000 years until Gandalf recovered it from a troll hoard in T.A. 2941 and wielded it through the War of the Ring.",
+
+        coverImage:
+            "images/projects/glambring/cover.png",
+
+        galleryImages:["images/projects/glambring/render-01.png",
+            "images/projects/glambring/render-02.png",
+            "images/projects/glambring/render-03.png",
+            "images/projects/glambring/render-04.png"
+        ],
+
+        video: "",
+
+        software:
+            "Blender",
+
+        renderer:
+            "Cycles",
+
+        category:
+            "Image",
+
+        completed:
+            "August 2026",
+
+        tags: [
+            "sword",
+            "weapon",
+            "metal",
+            "image",
+            "cycles"
+        ]
+    },
+
+    {
         id: "black-hole",
         title: "Black Hole Animation",
         collection: "environment",
